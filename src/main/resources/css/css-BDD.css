@@ -1,0 +1,33 @@
+.root {
+    -fx-background-color: #2b2b2b;
+    -fx-font-family: "Segoe UI", Arial;
+}
+
+.label, .check-box .label {
+    -fx-text-fill: #ffffff;
+}
+
+.title-label {
+    -fx-text-fill: #32cd32; 
+    -fx-font-weight: bold;
+    -fx-font-size: 20px; 
+}
+
+.button {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: #32cd32;
+    -fx-border-color: #32cd32;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #32cd32;
+    -fx-text-fill: #000000;
+}
+
+.text-field, .text-area {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #32cd32;
+}

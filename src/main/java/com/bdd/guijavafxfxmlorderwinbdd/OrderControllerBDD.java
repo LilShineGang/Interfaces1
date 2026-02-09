@@ -9,4 +9,9 @@ public class OrderControllerBDD {
     private void switchToPrimary() throws IOException {
         App.setRoot("primary");
     }
+
+    @FXML
+    private void openCalculator() throws IOException {
+        App.setRoot("src/main/resources/com/bdd/guijavafxfxmlorderwinbdd/fxml/calculatorBDD");
+    }
 }
